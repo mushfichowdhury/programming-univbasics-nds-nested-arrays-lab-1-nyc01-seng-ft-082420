@@ -99,7 +99,7 @@ sorted_matrix = [
 end
 
 def matrix_update(matrix, row, column, new_value)
-  assembled_matrix = [
+  matrix = [
 [
   "Grapefruit",
   "Pineapple",
@@ -113,22 +113,7 @@ def matrix_update(matrix, row, column, new_value)
   "Avocadoes",
   "Asparagus"]
 ]
-sorted_matrix = [
-[
-  "Eggplant",
-  "Grapefruit",
-  "Oranges",
-  "Pineapple",
-  "Watermelon"
-],
-  [
-  "Asparagus",
-  "Avocadoes",
-  "Grapes",
-  "Potatoes",
-  "Strawberries"
-]
-    ]
+
   matrix[row][column] = new_value
   return matrix[row][column]
   
