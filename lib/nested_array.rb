@@ -63,18 +63,20 @@ end
 
 def matrix_lookup(matrix, row, column)
   assembled_matrix = [
-[ "Eggplant",
+[
   "Grapefruit",
-  "Oranges",
   "Pineapple",
-  "Watermelon"],
-[ "Asparagus",
-  "Avocadoes",
-  "Grapes",
+  "Oranges",
+  "Watermelon",
+  "Eggplant"],
+  [
+  "Strawberries",
   "Potatoes",
-  "Strawberries"]
-  ]
-  assembled_matrix[row][column]
+  "Grapes",
+  "Avocadoes",
+  "Asparagus"]
+]
+  return assembled_matrix[row][column]
  
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
